@@ -1,0 +1,10 @@
+-   id: js-debug-statements
+    name: Check for JS debug statements
+    entry: 'console.log|debugger'
+    language: pygrep
+    files: '.*\.(js|vue)$'
+-   id: js-it-only
+    name: Check for Cypress it.only
+    entry: 'it.only'
+    language: pygrep
+    files: '.*\.(vue)$'
