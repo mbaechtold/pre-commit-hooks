@@ -7,4 +7,4 @@
     name: Check for Cypress it.only
     entry: 'it.only'
     language: pygrep
-    files: '.*\.(vue)$'
+    files: '.*\.(js)$'
