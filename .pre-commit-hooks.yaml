@@ -8,3 +8,8 @@
     entry: 'it.only'
     language: pygrep
     files: '.*\.(js)$'
+-   id: js-cy-pause
+    name: Check for Cypress cy.pause()
+    entry: 'cy.pause'
+    language: pygrep
+    files: '.*\.(js)$'
