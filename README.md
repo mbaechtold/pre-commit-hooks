@@ -11,6 +11,7 @@ Add this to your `.pre-commit-config.yaml`
         hooks:
         -   id: js-debug-statements
         -   id: js-it-only
+        -   id: js-cy-pause
 
 ### Hooks
 
@@ -19,3 +20,6 @@ Add this to your `.pre-commit-config.yaml`
     - `debugger`
     
 - `js-it-only` - Check Vue (`.vue`) files for "it.only" statements.
+
+- `js-cy-pause` - Check Vue (`.vue`) files for "cy.pause()" statements.
+- 
