@@ -22,4 +22,3 @@ Add this to your `.pre-commit-config.yaml`
 - `js-it-only` - Check Vue (`.vue`) files for "it.only" statements.
 
 - `js-cy-pause` - Check Vue (`.vue`) files for "cy.pause()" statements.
-- 
